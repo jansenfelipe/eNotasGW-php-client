@@ -1,0 +1,9 @@
+{
+    "name": "enotas-gw/php-client",
+    "description": "eNotas GW API client for PHP",
+    "autoload": {
+        "psr-4": {
+            "eNotasGW\Api\\": "src/"
+        }
+    }
+}
