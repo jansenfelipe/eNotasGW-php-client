@@ -65,7 +65,7 @@
 
 		public function encodeRequestParameters() {
 			$contentType = $this->contentType;
-			$formatter = eNotasGW::getMediaFormatter($contentType);
+			$formatter = eNotasGW\Api\eNotasGW::getMediaFormatter($contentType);
 
 			if($formatter !== FALSE) {
 				$result = $formatter->encode($this->parameters, $contentType);

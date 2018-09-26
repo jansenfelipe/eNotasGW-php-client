@@ -42,7 +42,7 @@
 		}
 
 		private function decodeResponse() {
-			$formatter = eNotasGW::getMediaFormatter($this->contentType);
+			$formatter = eNotasGW\Api\eNotasGW::getMediaFormatter($this->contentType);
 			
 			return $formatter->decode($this->body);
 		}
